@@ -5,7 +5,7 @@
 <br />
 <div align="center">
 
-<img src="https://github.com/user-attachments/assets/40d681d5-5b1f-4c93-bddc-83bc07cd5a5e" alt="AzureMapApiLogo" height="150">
+<img src="https://streamlit.io/images/brand/streamlit-logo-secondary-colormark-darktext.svg" alt="StreamlitLogo" height="150">
 
   <h3 align="center">Principal component analysis Tool uisng STREAMLIT</h3>
 </div>
