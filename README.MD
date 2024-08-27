@@ -30,7 +30,7 @@ Road Map:
 
 
 ### *Streamlit App*
- <img src="https://github.com/user-attachments/assets/da17c99d-ea7d-45ac-9d04-1b378df240d4" alt="AzureMapApiLogo" height="500">
+ <img src="https://raw.githubusercontent.com/CameronCSS/Principal-component-analysis/main/PCA.PNG" alt="AzureMapApiLogo" height="500">
 
 
 
