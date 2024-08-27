@@ -5,9 +5,7 @@
 <br />
 <div align="center">
 
-
-    <img src="https://github.com/user-attachments/assets/40d681d5-5b1f-4c93-bddc-83bc07cd5a5e" alt="AzureMapApiLogo" height="150">
-  </a>
+<img src="https://github.com/user-attachments/assets/40d681d5-5b1f-4c93-bddc-83bc07cd5a5e" alt="AzureMapApiLogo" height="150">
 
   <h3 align="center">Principal component analysis Tool uisng STREAMLIT</h3>
 </div>
@@ -75,7 +73,7 @@ If you want to try this project yourself you first need to get visit it [HERE]()
    git clone https://github.com/CameronCSS/Principal-component-analysis.git
    ```
 3. Download the Sample data
-   [2021_MPG_DATA.csv]()
+   [2021_MPG_DATA.csv](https://github.com/CameronCSS/Principal-component-analysis/blob/main/2021_MPG_data.csv)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
