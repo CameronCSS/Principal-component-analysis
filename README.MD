@@ -17,15 +17,14 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-A client needed School information in a particular area. 
+I had a client who needed an easy way to load data and see relational points
 <br>
-Using the Azure Map API we can quickly gather all that information and give them a clean file with the data they need.
+Using Streamlit we created a simple app that can display data of a CSV that is uploaded and then the user can filter different data points to see how they correlate.
 
-What you need:
-* Azure API key
-* Python coding knowledge
-* Know how to use jupyter notebooks 
-<sup>(Its much easier to test and decipher JSON in a notebook than a straight .py file)</sup>
+Road Map:
+* Want to make visualization much cleaner
+* Want to further customize with either advanced streamlit or full blown app
+* Want to make it so it will accept more file types. Currently only takes csv.
 
 
 
@@ -33,7 +32,7 @@ What you need:
 
 
 
-### *Final Output Data*
+### *Streamlit App*
  <img src="https://github.com/user-attachments/assets/da17c99d-ea7d-45ac-9d04-1b378df240d4" alt="AzureMapApiLogo" height="500">
 
 
@@ -45,7 +44,7 @@ What you need:
 <!-- GETTING STARTED -->
 ## Getting Started
 
-If you want to try this project yourself you first need to get an Azure API key [HERE](https://azure.microsoft.com/en-us/products/azure-maps)
+If you want to try this project yourself you first need to get visit it [HERE]()
 
 ### Installation
 
@@ -58,20 +57,26 @@ If you want to try this project yourself you first need to get an Azure API key 
   ```sh
   pip install numpy
   ```
-* matplotlib (Optional)
+* plotly
   ```sh
-  pip install matplotlib
+  pip install plotly
+  ```
+* streamlit
+  ```sh
+  pip install streamlit
+  ```
+* sklearn
+  ```sh
+  pip install scikit-learn
   ```
 
 
 2. Clone the repo
    ```sh
-   git clone https://github.com/CameronCSS/Azure_Map_API.git
+   git clone https://github.com/CameronCSS/Principal-component-analysis.git
    ```
-3. Enter your API in `secret.py`
-   ```py
-   AZURE_MAP_KEY = 'your_api_key'
-   ```
+3. Download the Sample data
+   [2021_MPG_DATA.csv]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -80,15 +85,9 @@ If you want to try this project yourself you first need to get an Azure API key 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-We will be using a GET HTTP method to get our data. We can use python to easily manipulate the URL and get the desired data
-```python
-# Sample GET HTTP request
-https://atlas.microsoft.com/search/address/json?&subscription-key={YOUR-AZURE_MAP_KEY}&api-version=1.0&language=en-US&query=400 Broad St, Seattle, WA 98109
+Pull up the app on your local machine using the streamlit package, or publish to an online streamlit app.
+Once the application is running you can upload csv files and look at the correlated data.
 
-"This will return results for the exact address '400 Broad St, Seattle, WA 98109'"
-```
-
-You can learn more about the Azure API usage [HERE](https://learn.microsoft.com/en-us/azure/azure-maps/how-to-search-for-address)
 
 
 
