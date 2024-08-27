@@ -3,6 +3,7 @@ import pandas as pd
 import plotly.express as px
 from application_functions import pca_maker
 
+
 st.set_page_config(layout="wide")
 scatter_column, settings_column = st.columns((4, 1))
 
